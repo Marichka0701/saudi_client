@@ -5,13 +5,13 @@
 }
 
 .MuiSwitch-track {
-  background: var(--border-light) !important;
-  opacity: 1 !important;
+  background: var(--border-light);
+  opacity: 1;
 }
 
-.Mui-checked.MuiSwitch-track {
-  background: #3B82F6 !important;
-  opacity: 1 !important;
+.MuiSwitch-track.Mui-checked {
+  background: #3B82F6 ;
+  opacity: 1;
 }
 
 label > span,
